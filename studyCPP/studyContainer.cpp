@@ -132,7 +132,7 @@ int studyOrderedContainer(){
     cout << vec6.capacity() << endl; //capacity 是容量
 //string的特殊操做
     string str = "hello world!";
-    str.insert(str.size(), 5, '!'); // 在str的最后一个字符前面添加5个！
+    str.insert(str.size(), 5, '2'); // 在str的最后一个字符后面添加5个2
     cout << str << endl;
     str.erase(str.size()-5,5); //从str的导数第五个开始删除5个字符
     cout << str << endl;
@@ -142,11 +142,52 @@ int studyOrderedContainer(){
     const char *cp = "woaininiaiwome";
     str.insert(str.size(), cp+3); //在str的末尾 ，添加cp从第三个开始到最后结尾的字符
     cout << str <<endl;
-    string s = "some string",s2 = "some other string";
+    string s = "some string",s2 = " some other string";
 //    s.insert(0, s2); 在s的0位置之前插入s2的拷贝
-    s.insert(0,s2,0,s2.size()); // 在s的0位置之前添加 s2从0开始到s2.size()结尾的字符
+    s.insert(0,s2,0,s2.size()); // 在s的0位置之后添加 s2从0开始到s2.size()结尾的字符
     cout << s << endl;
-    
-    
+    s2.append(" i'm looking for my conterpart"); //在字符串尾部添加  相当于s2.insert(s2.size(),"str")
+    cout << s2 << endl;
+    s2.replace(12, 6, "I 'm looking for my conterpart"); //从第12位开始的6个字母删除，替换成后面字符串的形式
+    cout << s2 << endl;
+    cout << "----------"<<endl;
+    //搜索字符串
+    /*s.find(args) 查找在s中args第一次出现的位置
+     *s.rfind(args) 查找在s中args最后一次出现的位置
+     *s.find_first_of(args) 在s中查找args中任何一个字符第一次出现的位置
+     *s.find_last_of(args) 在s中查找args中任何一个字符最后一次出现的位置
+     *s.find_first_not_of(args) 在s中查找第一个不在args中的字符
+     *s.find_last_not_of(args) 在s中查找最后一个不在args中的字符
+     */
+     string name = "what's your name?";
+     auto pos =  name.find("a",0);//2 //返回的是第一次出现的下标  0这个参数是可以省略的因为默认就是0
+     cout << pos << endl;
+     pos = name.rfind("a");//13
+     cout << pos << endl;
+     pos = name.find_first_of("aeiou");//2 在第二个位置出现了aeiou 里面的一个字符
+     cout << pos << endl;
+     pos = name.find_first_not_of("aeiou");//0 //在第一个字符出现了非aeiou的字符
+     cout << pos << endl;
+    cout << "---------"<< endl;
+    //字符串的比较
+    string name1 = "what's your name?";
+    const char *name3 = "what's your name?";
+    auto res = name.compare(name1);
+    cout << res << endl; //0代表等于，大于是证书 小于负数
+    res = name.compare(0,5,name1); //从name的第0位开始的5个字符 和name1比较
+    cout << res << endl;
+    res = name1.compare(0,5,name1,0,5); //从name的第0位开始的5个字符和name1从第0个开始的5个字符比较
+    cout << res << endl;
+    res = name1.compare(name3);
+    cout << res << endl;
+    cout << "-----------"<<endl;
+    //字符串转数字和数字转字符串
+    int i = 43;
+    string num = to_string(i); //把数字转换成字符串
+    string bstr = "3.14";
+    double db = stod(bstr);
+    string pi = "pi = 3.14";
+    db = stod(pi.substr(pi.find_first_of("+-.1234567890"))); //substr(0,5) 表示从0位置开始截取5位
+    cout << db << endl;
     return 0;
 }
