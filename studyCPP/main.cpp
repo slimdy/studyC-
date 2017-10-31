@@ -14,6 +14,7 @@
 #include "studyClass.hpp"
 #include "studyIO.hpp"
 #include "studyContainer.hpp"
+#include "genericMethod.hpp"
 using namespace std;//如果添加这个使用的命名空间，则代码中不必分要使用std::
 
 int simpleIO(){
@@ -113,7 +114,10 @@ int main(int argc, const char * argv[]) {
 //    studyIO();
 
 //study容器的方法
-    studyOrderedContainer();
+//    studyOrderedContainer();
+
+//  泛型算法
+    studyGenericMethod();
     return 0;//如果是-1的话这里会显示退出与255的错误代码
 }
 

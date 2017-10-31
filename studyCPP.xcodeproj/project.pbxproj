@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5507AA491FA6B6BD001B3176 /* genericMethod.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5507AA471FA6B6BD001B3176 /* genericMethod.cpp */; };
 		5541F4151FA02908004303D3 /* studyContainer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5541F4131FA02908004303D3 /* studyContainer.cpp */; };
 		554D838F1F7E1649004A6E41 /* dataType.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 554D838D1F7E1649004A6E41 /* dataType.cpp */; };
 		5580AEDC1F96DFE8002FD77C /* studyFunction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5580AEDA1F96DFE8002FD77C /* studyFunction.cpp */; };
@@ -30,6 +31,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5507AA471FA6B6BD001B3176 /* genericMethod.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = genericMethod.cpp; sourceTree = "<group>"; };
+		5507AA481FA6B6BD001B3176 /* genericMethod.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = genericMethod.hpp; sourceTree = "<group>"; };
 		5541F4131FA02908004303D3 /* studyContainer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = studyContainer.cpp; sourceTree = "<group>"; };
 		5541F4141FA02908004303D3 /* studyContainer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = studyContainer.hpp; sourceTree = "<group>"; };
 		554D838D1F7E1649004A6E41 /* dataType.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dataType.cpp; sourceTree = "<group>"; usesTabs = 0; wrapsLines = 1; };
@@ -93,6 +96,8 @@
 				55EA559C1F9EDDFD001E203D /* studyIO.hpp */,
 				5541F4131FA02908004303D3 /* studyContainer.cpp */,
 				5541F4141FA02908004303D3 /* studyContainer.hpp */,
+				5507AA471FA6B6BD001B3176 /* genericMethod.cpp */,
+				5507AA481FA6B6BD001B3176 /* genericMethod.hpp */,
 			);
 			path = studyCPP;
 			sourceTree = "<group>";
@@ -158,6 +163,7 @@
 				55EA559D1F9EDDFD001E203D /* studyIO.cpp in Sources */,
 				5597E4D61F8C74090097327A /* stringVectorArray.cpp in Sources */,
 				554D838F1F7E1649004A6E41 /* dataType.cpp in Sources */,
+				5507AA491FA6B6BD001B3176 /* genericMethod.cpp in Sources */,
 				5580AEDC1F96DFE8002FD77C /* studyFunction.cpp in Sources */,
 				55CD930C1F987B1700D1C1E5 /* studyClass.cpp in Sources */,
 				55FDB4331F904F040002DD65 /* expression.cpp in Sources */,
