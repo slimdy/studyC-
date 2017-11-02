@@ -11,6 +11,7 @@
 		5541F4151FA02908004303D3 /* studyContainer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5541F4131FA02908004303D3 /* studyContainer.cpp */; };
 		554D838F1F7E1649004A6E41 /* dataType.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 554D838D1F7E1649004A6E41 /* dataType.cpp */; };
 		5580AEDC1F96DFE8002FD77C /* studyFunction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5580AEDA1F96DFE8002FD77C /* studyFunction.cpp */; };
+		5586D7751FAAAB5400E1CC8A /* studyMapAndSet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5586D7731FAAAB5400E1CC8A /* studyMapAndSet.cpp */; };
 		5597E4D61F8C74090097327A /* stringVectorArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5597E4D41F8C74090097327A /* stringVectorArray.cpp */; };
 		55A49F601F7CC77D00E7F98B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55A49F5F1F7CC77D00E7F98B /* main.cpp */; };
 		55CD930C1F987B1700D1C1E5 /* studyClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55CD930A1F987B1700D1C1E5 /* studyClass.cpp */; };
@@ -39,6 +40,8 @@
 		554D838E1F7E1649004A6E41 /* dataType.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = dataType.hpp; sourceTree = "<group>"; };
 		5580AEDA1F96DFE8002FD77C /* studyFunction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = studyFunction.cpp; sourceTree = "<group>"; };
 		5580AEDB1F96DFE8002FD77C /* studyFunction.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = studyFunction.hpp; sourceTree = "<group>"; };
+		5586D7731FAAAB5400E1CC8A /* studyMapAndSet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = studyMapAndSet.cpp; sourceTree = "<group>"; };
+		5586D7741FAAAB5400E1CC8A /* studyMapAndSet.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = studyMapAndSet.hpp; sourceTree = "<group>"; };
 		5597E4D41F8C74090097327A /* stringVectorArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stringVectorArray.cpp; sourceTree = "<group>"; };
 		5597E4D51F8C74090097327A /* stringVectorArray.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = stringVectorArray.hpp; sourceTree = "<group>"; };
 		55A49F5C1F7CC77D00E7F98B /* studyCPP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = studyCPP; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -98,6 +101,8 @@
 				5541F4141FA02908004303D3 /* studyContainer.hpp */,
 				5507AA471FA6B6BD001B3176 /* genericMethod.cpp */,
 				5507AA481FA6B6BD001B3176 /* genericMethod.hpp */,
+				5586D7731FAAAB5400E1CC8A /* studyMapAndSet.cpp */,
+				5586D7741FAAAB5400E1CC8A /* studyMapAndSet.hpp */,
 			);
 			path = studyCPP;
 			sourceTree = "<group>";
@@ -164,6 +169,7 @@
 				5597E4D61F8C74090097327A /* stringVectorArray.cpp in Sources */,
 				554D838F1F7E1649004A6E41 /* dataType.cpp in Sources */,
 				5507AA491FA6B6BD001B3176 /* genericMethod.cpp in Sources */,
+				5586D7751FAAAB5400E1CC8A /* studyMapAndSet.cpp in Sources */,
 				5580AEDC1F96DFE8002FD77C /* studyFunction.cpp in Sources */,
 				55CD930C1F987B1700D1C1E5 /* studyClass.cpp in Sources */,
 				55FDB4331F904F040002DD65 /* expression.cpp in Sources */,
@@ -266,6 +272,7 @@
 		55A49F641F7CC77D00E7F98B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				LINK_WITH_STANDARD_LIBRARIES = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -273,6 +280,7 @@
 		55A49F651F7CC77D00E7F98B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				LINK_WITH_STANDARD_LIBRARIES = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
