@@ -10,12 +10,14 @@
 		5507AA491FA6B6BD001B3176 /* genericMethod.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5507AA471FA6B6BD001B3176 /* genericMethod.cpp */; };
 		5541F4151FA02908004303D3 /* studyContainer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5541F4131FA02908004303D3 /* studyContainer.cpp */; };
 		554D838F1F7E1649004A6E41 /* dataType.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 554D838D1F7E1649004A6E41 /* dataType.cpp */; };
+		55711E571FBEB770002CF964 /* copyMoDestoryFunction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55B79C1B1FBE71CF002E1AD2 /* copyMoDestoryFunction.cpp */; };
 		5580AEDC1F96DFE8002FD77C /* studyFunction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5580AEDA1F96DFE8002FD77C /* studyFunction.cpp */; };
 		5586D7751FAAAB5400E1CC8A /* studyMapAndSet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5586D7731FAAAB5400E1CC8A /* studyMapAndSet.cpp */; };
 		5597E4D61F8C74090097327A /* stringVectorArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5597E4D41F8C74090097327A /* stringVectorArray.cpp */; };
 		55A49F601F7CC77D00E7F98B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55A49F5F1F7CC77D00E7F98B /* main.cpp */; };
 		55CD930C1F987B1700D1C1E5 /* studyClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55CD930A1F987B1700D1C1E5 /* studyClass.cpp */; };
 		55EA559D1F9EDDFD001E203D /* studyIO.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55EA559B1F9EDDFD001E203D /* studyIO.cpp */; };
+		55EF89BF1FAFFD5700F6EA16 /* Dynamicmemory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55EF89BD1FAFFD5700F6EA16 /* Dynamicmemory.cpp */; };
 		55FDB4331F904F040002DD65 /* expression.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55FDB4311F904F040002DD65 /* expression.cpp */; };
 /* End PBXBuildFile section */
 
@@ -46,10 +48,14 @@
 		5597E4D51F8C74090097327A /* stringVectorArray.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = stringVectorArray.hpp; sourceTree = "<group>"; };
 		55A49F5C1F7CC77D00E7F98B /* studyCPP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = studyCPP; sourceTree = BUILT_PRODUCTS_DIR; };
 		55A49F5F1F7CC77D00E7F98B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		55B79C1B1FBE71CF002E1AD2 /* copyMoDestoryFunction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = copyMoDestoryFunction.cpp; sourceTree = "<group>"; };
+		55B79C1C1FBE71CF002E1AD2 /* copyMoDestoryFunction.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = copyMoDestoryFunction.hpp; sourceTree = "<group>"; };
 		55CD930A1F987B1700D1C1E5 /* studyClass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = studyClass.cpp; sourceTree = "<group>"; };
 		55CD930B1F987B1700D1C1E5 /* studyClass.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = studyClass.hpp; sourceTree = "<group>"; };
 		55EA559B1F9EDDFD001E203D /* studyIO.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = studyIO.cpp; sourceTree = "<group>"; };
 		55EA559C1F9EDDFD001E203D /* studyIO.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = studyIO.hpp; sourceTree = "<group>"; };
+		55EF89BD1FAFFD5700F6EA16 /* Dynamicmemory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Dynamicmemory.cpp; sourceTree = "<group>"; };
+		55EF89BE1FAFFD5700F6EA16 /* Dynamicmemory.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Dynamicmemory.hpp; sourceTree = "<group>"; };
 		55FDB4311F904F040002DD65 /* expression.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = expression.cpp; sourceTree = "<group>"; };
 		55FDB4321F904F040002DD65 /* expression.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = expression.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,6 +109,10 @@
 				5507AA481FA6B6BD001B3176 /* genericMethod.hpp */,
 				5586D7731FAAAB5400E1CC8A /* studyMapAndSet.cpp */,
 				5586D7741FAAAB5400E1CC8A /* studyMapAndSet.hpp */,
+				55EF89BD1FAFFD5700F6EA16 /* Dynamicmemory.cpp */,
+				55EF89BE1FAFFD5700F6EA16 /* Dynamicmemory.hpp */,
+				55B79C1B1FBE71CF002E1AD2 /* copyMoDestoryFunction.cpp */,
+				55B79C1C1FBE71CF002E1AD2 /* copyMoDestoryFunction.hpp */,
 			);
 			path = studyCPP;
 			sourceTree = "<group>";
@@ -164,6 +174,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55711E571FBEB770002CF964 /* copyMoDestoryFunction.cpp in Sources */,
 				55A49F601F7CC77D00E7F98B /* main.cpp in Sources */,
 				55EA559D1F9EDDFD001E203D /* studyIO.cpp in Sources */,
 				5597E4D61F8C74090097327A /* stringVectorArray.cpp in Sources */,
@@ -174,6 +185,7 @@
 				55CD930C1F987B1700D1C1E5 /* studyClass.cpp in Sources */,
 				55FDB4331F904F040002DD65 /* expression.cpp in Sources */,
 				5541F4151FA02908004303D3 /* studyContainer.cpp in Sources */,
+				55EF89BF1FAFFD5700F6EA16 /* Dynamicmemory.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

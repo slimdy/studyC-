@@ -7,4 +7,5 @@ dependencies: /Users/slimdy/XcodeProject/C/studyCPP/studyCPP/main.cpp \
   /Users/slimdy/XcodeProject/C/studyCPP/studyCPP/studyIO.hpp \
   /Users/slimdy/XcodeProject/C/studyCPP/studyCPP/studyContainer.hpp \
   /Users/slimdy/XcodeProject/C/studyCPP/studyCPP/genericMethod.hpp \
-  /Users/slimdy/XcodeProject/C/studyCPP/studyCPP/studyMapAndSet.hpp
+  /Users/slimdy/XcodeProject/C/studyCPP/studyCPP/studyMapAndSet.hpp \
+  /Users/slimdy/XcodeProject/C/studyCPP/studyCPP/copyMoDestoryFunction.hpp

@@ -16,6 +16,7 @@
 #include "studyContainer.hpp"
 #include "genericMethod.hpp"
 #include "studyMapAndSet.hpp"
+#include "copyMoDestoryFunction.hpp"
 using namespace std;//如果添加这个使用的命名空间，则代码中不必分要使用std::
 
 int simpleIO(){
@@ -122,7 +123,10 @@ int main(int argc, const char * argv[]) {
 
 // 关联容器Map和Set
 //    studyMap();
-    studySet();
+//    studySet();
+
+// 对象的拷贝 移动 赋值 和销毁
+    studyCopyMoveDestoryFunc();
     return 0;//如果是-1的话这里会显示退出与255的错误代码
 }
 
